@@ -1,0 +1,48 @@
+slurmstepd: error: couldn't chdir to `/workspace': No such file or directory: going to /tmp instead
+slurmstepd: error: couldn't chdir to `/workspace': No such file or directory: going to /tmp instead
+slurmstepd: error: couldn't chdir to `/workspace': No such file or directory: going to /tmp instead
+slurmstepd: error: couldn't chdir to `/workspace': No such file or directory: going to /tmp instead
+2025-05-16 15:40:02,473 - root - INFO - Experiment args: Namespace(dataset='/capstor/store/cscs/ethz/large-sc/datasets/train_data.parquet', checkpoint_path='/users/vbozic/scratch/LSAI_project/checkpoints', checkpoint_id='444664', tokenizer_name_or_path='unsloth/Mistral-Nemo-Base-2407-bnb-4bit', sequence_length=2048, batch_size=1, fused_optimizer=False, learning_rate=5e-05, lr_warmup_steps=100, training_steps=1000, logging_frequency=5, grad_max_norm=1, model_dtype='bf16', compile=False, raise_error=True, error_step=600)
+2025-05-16 15:40:02,473 - root - INFO - Loading checkpoint from /users/vbozic/scratch/LSAI_project/checkpoints
+2025-05-16 15:40:17,027 - root - INFO - Setting up DataLoaders...
+2025-05-16 15:40:25,959 - root - INFO - Setting up Model...
+2025-05-16 15:41:01,548 - root - INFO - Model loaded from checkpoint
+2025-05-16 15:41:03,095 - root - INFO - Optimizer loaded from checkpoint
+2025-05-16 15:41:03,095 - root - INFO - LR Scheduler loaded from checkpoint
+2025-05-16 15:41:03,096 - root - INFO - Resuming training from training_step 427
+2025-05-16 15:41:05,472 - root - INFO - Training step: 430 | Loss: 7.79
+2025-05-16 15:41:07,090 - root - INFO - Training step: 435 | Loss: 7.09
+2025-05-16 15:41:08,683 - root - INFO - Training step: 440 | Loss: 7.16
+2025-05-16 15:41:10,290 - root - INFO - Training step: 445 | Loss: 6.77
+2025-05-16 15:41:11,924 - root - INFO - Training step: 450 | Loss: 6.92
+2025-05-16 15:41:13,537 - root - INFO - Training step: 455 | Loss: 7.08
+2025-05-16 15:41:15,159 - root - INFO - Training step: 460 | Loss: 6.22
+2025-05-16 15:41:16,771 - root - INFO - Training step: 465 | Loss: 6.79
+2025-05-16 15:41:18,365 - root - INFO - Training step: 470 | Loss: 7.30
+2025-05-16 15:41:19,991 - root - INFO - Training step: 475 | Loss: 6.99
+2025-05-16 15:41:21,604 - root - INFO - Training step: 480 | Loss: 6.79
+2025-05-16 15:41:23,180 - root - INFO - Training step: 485 | Loss: 7.91
+2025-05-16 15:41:24,778 - root - INFO - Training step: 490 | Loss: 7.04
+2025-05-16 15:41:26,371 - root - INFO - Training step: 495 | Loss: 6.14
+2025-05-16 15:41:28,003 - root - INFO - Training step: 500 | Loss: 6.24
+2025-05-16 15:41:29,584 - root - INFO - Training step: 505 | Loss: 6.93
+2025-05-16 15:41:31,180 - root - INFO - Training step: 510 | Loss: 6.69
+2025-05-16 15:41:32,789 - root - INFO - Training step: 515 | Loss: 6.74
+2025-05-16 15:41:34,399 - root - INFO - Training step: 520 | Loss: 6.50
+2025-05-16 15:41:35,994 - root - INFO - Training step: 525 | Loss: 7.12
+2025-05-16 15:41:37,630 - root - INFO - Training step: 530 | Loss: 6.99
+2025-05-16 15:41:39,250 - root - INFO - Training step: 535 | Loss: 6.55
+2025-05-16 15:41:40,865 - root - INFO - Training step: 540 | Loss: 6.79
+2025-05-16 15:41:42,470 - root - INFO - Training step: 545 | Loss: 6.13
+2025-05-16 15:41:44,057 - root - INFO - Training step: 550 | Loss: 7.93
+2025-05-16 15:41:45,655 - root - INFO - Training step: 555 | Loss: 7.26
+2025-05-16 15:41:47,252 - root - INFO - Training step: 560 | Loss: 7.69
+2025-05-16 15:41:48,841 - root - INFO - Training step: 565 | Loss: 7.18
+2025-05-16 15:41:50,420 - root - INFO - Training step: 570 | Loss: 6.98
+2025-05-16 15:41:52,002 - root - INFO - Training step: 575 | Loss: 7.07
+2025-05-16 15:41:53,592 - root - INFO - Training step: 580 | Loss: 7.06
+2025-05-16 15:41:55,160 - root - INFO - Training step: 585 | Loss: 6.99
+2025-05-16 15:41:56,756 - root - INFO - Training step: 590 | Loss: 6.71
+2025-05-16 15:41:58,340 - root - INFO - Training step: 595 | Loss: 6.46
+2025-05-16 15:41:59,888 - root - INFO - [EXIT HANDLER] Error during training encountered, saving checkpoint.
+2025-05-16 15:42:33,635 - root - INFO - [EXIT HANDLER] Checkpoint saved at step 600

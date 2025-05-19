@@ -1,0 +1,63 @@
+slurmstepd: error: couldn't chdir to `/workspace': No such file or directory: going to /tmp instead
+slurmstepd: error: couldn't chdir to `/workspace': No such file or directory: going to /tmp instead
+2025-05-16 15:50:24,694 - root - INFO - Experiment args: Namespace(dataset='/capstor/store/cscs/ethz/large-sc/datasets/train_data.parquet', checkpoint_path='/users/vbozic/scratch/LSAI_project/checkpoints', checkpoint_id='', tokenizer_name_or_path='unsloth/Mistral-Nemo-Base-2407-bnb-4bit', sequence_length=2048, batch_size=1, fused_optimizer=False, learning_rate=5e-05, lr_warmup_steps=100, training_steps=1000, logging_frequency=5, grad_max_norm=1, model_dtype='bf16', compile=False, raise_error=True, error_step=600)
+2025-05-16 15:50:24,694 - root - INFO - Setting up DataLoaders...
+2025-05-16 15:50:26,933 - root - INFO - Setting up Model...
+2025-05-16 15:51:02,298 - root - INFO - Starting training!
+2025-05-16 15:51:03,476 - root - INFO - Training step: 0 | Loss: 11.93
+2025-05-16 15:51:03,792 - root - INFO - Training step: 1 | Loss: 11.95
+2025-05-16 15:51:05,063 - root - INFO - Training step: 5 | Loss: 11.89
+2025-05-16 15:51:06,691 - root - INFO - Training step: 10 | Loss: 11.88
+2025-05-16 15:51:08,317 - root - INFO - Training step: 15 | Loss: 11.71
+2025-05-16 15:51:09,956 - root - INFO - Training step: 20 | Loss: 11.22
+2025-05-16 15:51:11,566 - root - INFO - Training step: 25 | Loss: 10.51
+2025-05-16 15:51:13,171 - root - INFO - Training step: 30 | Loss: 10.01
+2025-05-16 15:51:14,753 - root - INFO - Training step: 35 | Loss: 10.30
+2025-05-16 15:51:16,338 - root - INFO - Training step: 40 | Loss: 9.45
+2025-05-16 15:51:17,929 - root - INFO - Training step: 45 | Loss: 10.11
+2025-05-16 15:51:19,531 - root - INFO - Training step: 50 | Loss: 9.11
+2025-05-16 15:51:21,131 - root - INFO - Training step: 55 | Loss: 8.75
+2025-05-16 15:51:22,775 - root - INFO - Training step: 60 | Loss: 8.14
+2025-05-16 15:51:24,379 - root - INFO - Training step: 65 | Loss: 8.75
+2025-05-16 15:51:25,992 - root - INFO - Training step: 70 | Loss: 8.44
+2025-05-16 15:51:27,556 - root - INFO - Training step: 75 | Loss: 8.75
+2025-05-16 15:51:29,160 - root - INFO - Training step: 80 | Loss: 7.97
+2025-05-16 15:51:30,773 - root - INFO - Training step: 85 | Loss: 7.42
+2025-05-16 15:51:32,414 - root - INFO - Training step: 90 | Loss: 7.99
+2025-05-16 15:51:34,092 - root - INFO - Training step: 95 | Loss: 7.72
+2025-05-16 15:51:35,779 - root - INFO - Training step: 100 | Loss: 7.85
+2025-05-16 15:51:37,362 - root - INFO - Training step: 105 | Loss: 7.60
+2025-05-16 15:51:38,967 - root - INFO - Training step: 110 | Loss: 7.91
+2025-05-16 15:51:40,566 - root - INFO - Training step: 115 | Loss: 7.99
+2025-05-16 15:51:42,162 - root - INFO - Training step: 120 | Loss: 7.87
+2025-05-16 15:51:43,788 - root - INFO - Training step: 125 | Loss: 7.38
+2025-05-16 15:51:45,366 - root - INFO - Training step: 130 | Loss: 7.53
+2025-05-16 15:51:46,991 - root - INFO - Training step: 135 | Loss: 7.28
+2025-05-16 15:51:48,586 - root - INFO - Training step: 140 | Loss: 7.92
+2025-05-16 15:51:50,175 - root - INFO - Training step: 145 | Loss: 7.28
+2025-05-16 15:51:51,815 - root - INFO - Training step: 150 | Loss: 7.63
+2025-05-16 15:51:53,437 - root - INFO - Training step: 155 | Loss: 7.27
+2025-05-16 15:51:55,050 - root - INFO - Training step: 160 | Loss: 7.74
+2025-05-16 15:51:56,690 - root - INFO - Training step: 165 | Loss: 7.36
+2025-05-16 15:51:58,304 - root - INFO - Training step: 170 | Loss: 8.48
+2025-05-16 15:51:59,919 - root - INFO - Training step: 175 | Loss: 8.16
+2025-05-16 15:52:01,515 - root - INFO - Training step: 180 | Loss: 5.96
+2025-05-16 15:52:03,123 - root - INFO - Training step: 185 | Loss: 7.39
+2025-05-16 15:52:04,732 - root - INFO - Training step: 190 | Loss: 8.12
+2025-05-16 15:52:06,362 - root - INFO - Training step: 195 | Loss: 7.61
+2025-05-16 15:52:07,973 - root - INFO - Training step: 200 | Loss: 7.80
+2025-05-16 15:52:09,573 - root - INFO - Training step: 205 | Loss: 7.48
+2025-05-16 15:52:11,172 - root - INFO - Training step: 210 | Loss: 7.47
+2025-05-16 15:52:12,765 - root - INFO - Training step: 215 | Loss: 7.18
+2025-05-16 15:52:14,366 - root - INFO - Training step: 220 | Loss: 7.52
+2025-05-16 15:52:15,966 - root - INFO - Training step: 225 | Loss: 7.38
+2025-05-16 15:52:17,543 - root - INFO - Training step: 230 | Loss: 7.97
+2025-05-16 15:52:19,144 - root - INFO - Training step: 235 | Loss: 8.34
+2025-05-16 15:52:20,760 - root - INFO - Training step: 240 | Loss: 7.03
+2025-05-16 15:52:22,397 - root - INFO - Training step: 245 | Loss: 7.38
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+srun: got SIGCONT
+slurmstepd: error: *** STEP 444691.0 ON nid006737 CANCELLED AT 2025-05-16T15:52:22 ***
+slurmstepd: error: *** JOB 444691 ON nid006737 CANCELLED AT 2025-05-16T15:52:22 ***
+2025-05-16 15:52:22,416 - root - INFO - [EXIT HANDLER] Job cancelled, terminating.
+srun: forcing job termination

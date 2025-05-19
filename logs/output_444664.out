@@ -1,0 +1,106 @@
+slurmstepd: error: couldn't chdir to `/workspace': No such file or directory: going to /tmp instead
+slurmstepd: error: couldn't chdir to `/workspace': No such file or directory: going to /tmp instead
+2025-05-16 15:35:46,144 - root - INFO - Experiment args: Namespace(dataset='/capstor/store/cscs/ethz/large-sc/datasets/train_data.parquet', checkpoint_path='/users/vbozic/scratch/LSAI_project/checkpoints', checkpoint_id='', tokenizer_name_or_path='unsloth/Mistral-Nemo-Base-2407-bnb-4bit', sequence_length=2048, batch_size=1, fused_optimizer=False, learning_rate=5e-05, lr_warmup_steps=100, training_steps=1000, logging_frequency=5, grad_max_norm=1, model_dtype='bf16', compile=False, raise_error=True, error_step=600)
+2025-05-16 15:35:46,144 - root - INFO - Setting up DataLoaders...
+2025-05-16 15:35:48,164 - root - INFO - Setting up Model...
+2025-05-16 15:36:23,611 - root - INFO - Starting training!
+2025-05-16 15:36:24,949 - root - INFO - Training step: 0 | Loss: 11.98
+2025-05-16 15:36:25,267 - root - INFO - Training step: 1 | Loss: 12.01
+2025-05-16 15:36:26,540 - root - INFO - Training step: 5 | Loss: 11.91
+2025-05-16 15:36:28,151 - root - INFO - Training step: 10 | Loss: 11.83
+2025-05-16 15:36:29,776 - root - INFO - Training step: 15 | Loss: 11.73
+2025-05-16 15:36:31,413 - root - INFO - Training step: 20 | Loss: 11.23
+2025-05-16 15:36:33,016 - root - INFO - Training step: 25 | Loss: 10.41
+2025-05-16 15:36:34,614 - root - INFO - Training step: 30 | Loss: 9.97
+2025-05-16 15:36:36,200 - root - INFO - Training step: 35 | Loss: 10.27
+2025-05-16 15:36:37,786 - root - INFO - Training step: 40 | Loss: 9.48
+2025-05-16 15:36:39,371 - root - INFO - Training step: 45 | Loss: 10.08
+2025-05-16 15:36:40,975 - root - INFO - Training step: 50 | Loss: 9.19
+2025-05-16 15:36:42,578 - root - INFO - Training step: 55 | Loss: 8.73
+2025-05-16 15:36:44,207 - root - INFO - Training step: 60 | Loss: 8.06
+2025-05-16 15:36:45,807 - root - INFO - Training step: 65 | Loss: 8.79
+2025-05-16 15:36:47,415 - root - INFO - Training step: 70 | Loss: 8.42
+2025-05-16 15:36:48,991 - root - INFO - Training step: 75 | Loss: 8.77
+2025-05-16 15:36:50,590 - root - INFO - Training step: 80 | Loss: 7.98
+2025-05-16 15:36:52,204 - root - INFO - Training step: 85 | Loss: 7.41
+2025-05-16 15:36:53,834 - root - INFO - Training step: 90 | Loss: 7.91
+2025-05-16 15:36:55,510 - root - INFO - Training step: 95 | Loss: 7.72
+2025-05-16 15:36:57,202 - root - INFO - Training step: 100 | Loss: 7.82
+2025-05-16 15:36:58,771 - root - INFO - Training step: 105 | Loss: 7.60
+2025-05-16 15:37:00,378 - root - INFO - Training step: 110 | Loss: 7.82
+2025-05-16 15:37:01,970 - root - INFO - Training step: 115 | Loss: 7.98
+2025-05-16 15:37:03,562 - root - INFO - Training step: 120 | Loss: 7.83
+2025-05-16 15:37:05,187 - root - INFO - Training step: 125 | Loss: 7.37
+2025-05-16 15:37:06,762 - root - INFO - Training step: 130 | Loss: 7.55
+2025-05-16 15:37:08,383 - root - INFO - Training step: 135 | Loss: 7.27
+2025-05-16 15:37:09,979 - root - INFO - Training step: 140 | Loss: 7.92
+2025-05-16 15:37:11,564 - root - INFO - Training step: 145 | Loss: 7.31
+2025-05-16 15:37:13,194 - root - INFO - Training step: 150 | Loss: 7.61
+2025-05-16 15:37:14,807 - root - INFO - Training step: 155 | Loss: 7.30
+2025-05-16 15:37:16,409 - root - INFO - Training step: 160 | Loss: 7.65
+2025-05-16 15:37:18,034 - root - INFO - Training step: 165 | Loss: 7.39
+2025-05-16 15:37:19,649 - root - INFO - Training step: 170 | Loss: 8.43
+2025-05-16 15:37:21,259 - root - INFO - Training step: 175 | Loss: 8.15
+2025-05-16 15:37:22,851 - root - INFO - Training step: 180 | Loss: 5.92
+2025-05-16 15:37:24,447 - root - INFO - Training step: 185 | Loss: 7.41
+2025-05-16 15:37:26,051 - root - INFO - Training step: 190 | Loss: 8.13
+2025-05-16 15:37:27,672 - root - INFO - Training step: 195 | Loss: 7.63
+2025-05-16 15:37:29,270 - root - INFO - Training step: 200 | Loss: 7.74
+2025-05-16 15:37:30,860 - root - INFO - Training step: 205 | Loss: 7.48
+2025-05-16 15:37:32,453 - root - INFO - Training step: 210 | Loss: 7.45
+2025-05-16 15:37:34,040 - root - INFO - Training step: 215 | Loss: 7.17
+2025-05-16 15:37:35,638 - root - INFO - Training step: 220 | Loss: 7.52
+2025-05-16 15:37:37,239 - root - INFO - Training step: 225 | Loss: 7.40
+2025-05-16 15:37:38,807 - root - INFO - Training step: 230 | Loss: 7.98
+2025-05-16 15:37:40,404 - root - INFO - Training step: 235 | Loss: 8.35
+2025-05-16 15:37:42,006 - root - INFO - Training step: 240 | Loss: 7.06
+2025-05-16 15:37:43,641 - root - INFO - Training step: 245 | Loss: 7.35
+2025-05-16 15:37:45,240 - root - INFO - Training step: 250 | Loss: 6.97
+2025-05-16 15:37:46,832 - root - INFO - Training step: 255 | Loss: 7.73
+2025-05-16 15:37:48,439 - root - INFO - Training step: 260 | Loss: 7.15
+2025-05-16 15:37:50,018 - root - INFO - Training step: 265 | Loss: 8.09
+2025-05-16 15:37:51,622 - root - INFO - Training step: 270 | Loss: 7.28
+2025-05-16 15:37:53,223 - root - INFO - Training step: 275 | Loss: 7.38
+2025-05-16 15:37:54,827 - root - INFO - Training step: 280 | Loss: 6.41
+2025-05-16 15:37:56,427 - root - INFO - Training step: 285 | Loss: 7.45
+2025-05-16 15:37:58,023 - root - INFO - Training step: 290 | Loss: 7.87
+2025-05-16 15:37:59,608 - root - INFO - Training step: 295 | Loss: 7.12
+2025-05-16 15:38:01,282 - root - INFO - Training step: 300 | Loss: 7.34
+2025-05-16 15:38:02,889 - root - INFO - Training step: 305 | Loss: 7.66
+2025-05-16 15:38:04,483 - root - INFO - Training step: 310 | Loss: 7.66
+2025-05-16 15:38:06,102 - root - INFO - Training step: 315 | Loss: 7.44
+2025-05-16 15:38:07,743 - root - INFO - Training step: 320 | Loss: 7.50
+2025-05-16 15:38:09,319 - root - INFO - Training step: 325 | Loss: 7.24
+2025-05-16 15:38:10,932 - root - INFO - Training step: 330 | Loss: 7.41
+2025-05-16 15:38:12,507 - root - INFO - Training step: 335 | Loss: 6.86
+2025-05-16 15:38:14,111 - root - INFO - Training step: 340 | Loss: 7.00
+2025-05-16 15:38:15,714 - root - INFO - Training step: 345 | Loss: 6.51
+2025-05-16 15:38:17,325 - root - INFO - Training step: 350 | Loss: 7.11
+2025-05-16 15:38:18,897 - root - INFO - Training step: 355 | Loss: 7.94
+2025-05-16 15:38:20,514 - root - INFO - Training step: 360 | Loss: 7.20
+2025-05-16 15:38:22,121 - root - INFO - Training step: 365 | Loss: 7.40
+2025-05-16 15:38:23,738 - root - INFO - Training step: 370 | Loss: 7.21
+2025-05-16 15:38:25,400 - root - INFO - Training step: 375 | Loss: 7.22
+2025-05-16 15:38:27,008 - root - INFO - Training step: 380 | Loss: 7.23
+2025-05-16 15:38:28,605 - root - INFO - Training step: 385 | Loss: 7.35
+2025-05-16 15:38:30,223 - root - INFO - Training step: 390 | Loss: 7.13
+2025-05-16 15:38:31,834 - root - INFO - Training step: 395 | Loss: 6.69
+2025-05-16 15:38:33,443 - root - INFO - Training step: 400 | Loss: 6.90
+2025-05-16 15:38:35,042 - root - INFO - Training step: 405 | Loss: 7.23
+2025-05-16 15:38:36,637 - root - INFO - Training step: 410 | Loss: 7.57
+2025-05-16 15:38:38,262 - root - INFO - Training step: 415 | Loss: 7.50
+2025-05-16 15:38:39,853 - root - INFO - Training step: 420 | Loss: 6.81
+2025-05-16 15:38:41,453 - root - INFO - Training step: 425 | Loss: 7.34
+2025-05-16 15:38:42,011 - root - INFO - [EXIT HANDLER] Job timed out, saving checkpoint.
+2025-05-16 15:39:15,563 - root - INFO - [EXIT HANDLER] Checkpoint saved at step 427
+
+--------------------------------------------------------------------------------
+| Use of the "--environment" option for "sbatch" is still considered           |
+| experimental and could result in unexpected behavior.                        |
+| Use of "--environment" is currently only recommended for the "srun" command. |
+|                                                                              |
+| Please read carefully the Container Engine page on the CSCS Knowledge Base.  |
+--------------------------------------------------------------------------------
+
+Submitted batch job 444671
+2025-05-16 15:39:16,152 - root - INFO - [EXIT HANDLER] sbatch requeued, new job will load the last checkpoint
